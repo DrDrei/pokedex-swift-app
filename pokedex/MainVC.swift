@@ -11,6 +11,7 @@ import UIKit
 class MainVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 	
 	@IBOutlet weak var collectionView: UICollectionView!
+	@IBOutlet weak var searchBar: UISearchBar!
 	var pokemon = [Pokemon]()
 	
 	override func viewDidLoad() {
