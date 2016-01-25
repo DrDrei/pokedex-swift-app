@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		359BFCF41C52F27C001C4169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359BFCF31C52F27C001C4169 /* AppDelegate.swift */; };
-		359BFCF61C52F27C001C4169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359BFCF51C52F27C001C4169 /* ViewController.swift */; };
+		359BFCF61C52F27C001C4169 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359BFCF51C52F27C001C4169 /* MainVC.swift */; };
 		359BFCF91C52F27C001C4169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359BFCF71C52F27C001C4169 /* Main.storyboard */; };
 		359BFCFC1C52F27C001C4169 /* pokedex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 359BFCFA1C52F27C001C4169 /* pokedex.xcdatamodeld */; };
 		359BFCFE1C52F27C001C4169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359BFCFD1C52F27C001C4169 /* Assets.xcassets */; };
@@ -16,12 +16,14 @@
 		359BFD091C52F49E001C4169 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 359BFD081C52F49E001C4169 /* pokemon.csv */; };
 		359BFD0C1C52F58D001C4169 /* pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359BFD0B1C52F58D001C4169 /* pokemon.swift */; };
 		359BFD101C5301F0001C4169 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359BFD0F1C5301F0001C4169 /* PokemonCell.swift */; };
+		359BFD131C55A2F6001C4169 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359BFD121C55A2F6001C4169 /* csv.swift */; };
+		359BFD161C55ABA6001C4169 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 359BFD151C55ABA6001C4169 /* Pokemon Solid.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		359BFCF01C52F27C001C4169 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		359BFCF31C52F27C001C4169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		359BFCF51C52F27C001C4169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		359BFCF51C52F27C001C4169 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		359BFCF81C52F27C001C4169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		359BFCFB1C52F27C001C4169 /* pokedex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pokedex.xcdatamodel; sourceTree = "<group>"; };
 		359BFCFD1C52F27C001C4169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,6 +32,8 @@
 		359BFD081C52F49E001C4169 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		359BFD0B1C52F58D001C4169 /* pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pokemon.swift; sourceTree = "<group>"; };
 		359BFD0F1C5301F0001C4169 /* PokemonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		359BFD121C55A2F6001C4169 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		359BFD151C55ABA6001C4169 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 		359BFCF21C52F27C001C4169 /* pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				359BFD141C55A2FB001C4169 /* Utilities */,
+				359BFD111C530AF4001C4169 /* Controller */,
 				359BFD0A1C52F573001C4169 /* Model */,
 				359BFD0D1C53019E001C4169 /* Views */,
 				359BFD0E1C5301AF001C4169 /* Others */,
@@ -73,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				359BFD0B1C52F58D001C4169 /* pokemon.swift */,
+				359BFD0F1C5301F0001C4169 /* PokemonCell.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -80,9 +87,7 @@
 		359BFD0D1C53019E001C4169 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				359BFCF51C52F27C001C4169 /* ViewController.swift */,
 				359BFCF71C52F27C001C4169 /* Main.storyboard */,
-				359BFD0F1C5301F0001C4169 /* PokemonCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -98,6 +103,23 @@
 				359BFD081C52F49E001C4169 /* pokemon.csv */,
 			);
 			name = Others;
+			sourceTree = "<group>";
+		};
+		359BFD111C530AF4001C4169 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				359BFCF51C52F27C001C4169 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		359BFD141C55A2FB001C4169 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				359BFD121C55A2F6001C4169 /* csv.swift */,
+				359BFD151C55ABA6001C4169 /* Pokemon Solid.ttf */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359BFD161C55ABA6001C4169 /* Pokemon Solid.ttf in Resources */,
 				359BFD011C52F27C001C4169 /* LaunchScreen.storyboard in Resources */,
 				359BFCFE1C52F27C001C4169 /* Assets.xcassets in Resources */,
 				359BFD091C52F49E001C4169 /* pokemon.csv in Resources */,
@@ -172,10 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359BFD131C55A2F6001C4169 /* csv.swift in Sources */,
 				359BFD101C5301F0001C4169 /* PokemonCell.swift in Sources */,
 				359BFCFC1C52F27C001C4169 /* pokedex.xcdatamodeld in Sources */,
 				359BFD0C1C52F58D001C4169 /* pokemon.swift in Sources */,
-				359BFCF61C52F27C001C4169 /* ViewController.swift in Sources */,
+				359BFCF61C52F27C001C4169 /* MainVC.swift in Sources */,
 				359BFCF41C52F27C001C4169 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +348,7 @@
 				359BFD071C52F27C001C4169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
