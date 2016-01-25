@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3575DACF1C56DDC900468270 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3575DACE1C56DDC900468270 /* PokemonDetailVC.swift */; };
 		359BFCF41C52F27C001C4169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359BFCF31C52F27C001C4169 /* AppDelegate.swift */; };
 		359BFCF61C52F27C001C4169 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359BFCF51C52F27C001C4169 /* MainVC.swift */; };
 		359BFCF91C52F27C001C4169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359BFCF71C52F27C001C4169 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3575DACE1C56DDC900468270 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		359BFCF01C52F27C001C4169 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		359BFCF31C52F27C001C4169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		359BFCF51C52F27C001C4169 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				359BFCF51C52F27C001C4169 /* MainVC.swift */,
+				3575DACE1C56DDC900468270 /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				359BFD101C5301F0001C4169 /* PokemonCell.swift in Sources */,
 				359BFCFC1C52F27C001C4169 /* pokedex.xcdatamodeld in Sources */,
 				359BFD0C1C52F58D001C4169 /* pokemon.swift in Sources */,
+				3575DACF1C56DDC900468270 /* PokemonDetailVC.swift in Sources */,
 				359BFCF61C52F27C001C4169 /* MainVC.swift in Sources */,
 				359BFCF41C52F27C001C4169 /* AppDelegate.swift in Sources */,
 			);
