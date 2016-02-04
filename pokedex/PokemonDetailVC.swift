@@ -12,6 +12,29 @@ class PokemonDetailVC: UIViewController {
 
 	var pokemon: Pokemon!
 	
+	@IBOutlet weak var mainSeg: UISegmentedControl!
+	
+	@IBOutlet weak var mainImg: UIImageView!
+	@IBOutlet weak var currentEvoImg: UIImageView!
+	@IBOutlet weak var nextEvoImg: UIImageView!
+	
+	@IBOutlet weak var descLabel: UILabel!
+	@IBOutlet weak var typeLabel: UILabel!
+	@IBOutlet weak var defenseLabel: UILabel!
+	@IBOutlet weak var heightLabel: UILabel!
+	@IBOutlet weak var idLabel: UILabel!
+	@IBOutlet weak var weightLabel: UILabel!
+	@IBOutlet weak var attackLabel: UILabel!
+	@IBOutlet weak var evoDescLabel: UILabel!
+	
+	@IBAction func backPressed() {
+		
+	}
+	
+	@IBAction func segPressed() {
+		
+	}
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
