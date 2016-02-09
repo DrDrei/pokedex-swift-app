@@ -28,7 +28,7 @@ class PokemonDetailVC: UIViewController {
 	@IBOutlet weak var evoDescLabel: UILabel!
 	
 	@IBAction func backPressed() {
-		
+		self.dismissViewControllerAnimated(true, completion: nil)
 	}
 	
 	@IBAction func segPressed() {
