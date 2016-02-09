@@ -142,8 +142,8 @@ class Pokemon: AnyObject {
 						self._type = name.capitalizedString
 					}
 					if types.count > 1 {
-						for var type in types {
-							self._type.appendContentsOf("/\(type["name"]?.capitalizedString)")
+						for index in 1...types.count-1 {
+							self._type.appendContentsOf("/\(types[index]["name"]!.capitalizedString)")
 						}
 					}
 				} else {

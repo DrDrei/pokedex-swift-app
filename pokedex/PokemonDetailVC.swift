@@ -12,7 +12,7 @@ class PokemonDetailVC: UIViewController {
 
 	var pokemon: Pokemon!
 	
-	@IBOutlet weak var mainSeg: UISegmentedControl!
+	@IBOutlet weak var pokeNameLbl: UILabel!
 	
 	@IBOutlet weak var mainImg: UIImageView!
 	@IBOutlet weak var currentEvoImg: UIImageView!
@@ -37,9 +37,11 @@ class PokemonDetailVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+		
 		let img = UIImage(named: "\(pokemon.pokedexID)")
 		self.mainImg.image = img
 		self.currentEvoImg.image = img
+		self.pokeNameLbl.text = pokemon.name.capitalizedString
 		pokemon.downloadPokemonDetails { () -> () in
 			self.updateUI()
 		}
@@ -47,7 +49,7 @@ class PokemonDetailVC: UIViewController {
 	
 	func updateUI() {
 		self.descLabel.text = pokemon.desc
-		self.typeLabel.text = pokemon.type
+		self.typeLabel.text = " \(pokemon.type)"
 		self.defenseLabel.text = pokemon.defense
 		self.heightLabel.text = pokemon.height
 		self.idLabel.text = "\(pokemon.pokedexID)"
