@@ -341,7 +341,7 @@
                                                         <color key="textColor" red="0.66666666669999997" green="0.29803921570000003" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TYPE:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDD-UM-O8K">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TYPE:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDD-UM-O8K">
                                                         <rect key="frame" x="143" y="0.0" width="142" height="17"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                         <color key="textColor" red="0.3858653547" green="0.39258855609999999" blue="0.39269649620000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -377,7 +377,7 @@
                                                         <color key="textColor" red="0.66666666669999997" green="0.29803921570000003" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TYPE:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xN8-nX-9pN">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TYPE:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xN8-nX-9pN">
                                                         <rect key="frame" x="181" y="0.0" width="109" height="16"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
                                                         <color key="textColor" red="0.3858653547" green="0.39258855609999999" blue="0.39269649620000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -403,7 +403,7 @@
                                                         <color key="textColor" red="0.66666666669999997" green="0.29803921570000003" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TYPE:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHL-6q-epo">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TYPE:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHL-6q-epo">
                                                         <rect key="frame" x="181" y="0.0" width="109" height="16"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
                                                         <color key="textColor" red="0.3858653547" green="0.39258855609999999" blue="0.39269649620000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -437,7 +437,7 @@
                                                         <color key="textColor" red="0.66666666669999997" green="0.29803921570000003" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TYPE:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glA-Mg-mei">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TYPE:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glA-Mg-mei">
                                                         <rect key="frame" x="181" y="0.0" width="109" height="16"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
                                                         <color key="textColor" red="0.3858653547" green="0.39258855609999999" blue="0.39269649620000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -457,7 +457,7 @@
                                                         <color key="textColor" red="0.66666666669999997" green="0.29803921570000003" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TYPE:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWA-Kt-fad">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TYPE:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWA-Kt-fad">
                                                         <rect key="frame" x="181" y="0.0" width="109" height="16"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
                                                         <color key="textColor" red="0.3858653547" green="0.39258855609999999" blue="0.39269649620000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -547,6 +547,7 @@
                         <outlet property="mainSeg" destination="1VS-xF-8gK" id="dpu-Yj-Lqi"/>
                         <outlet property="nextEvoImg" destination="BnL-xQ-k6I" id="Idh-hx-BTA"/>
                         <outlet property="typeLabel" destination="xdN-5E-w3b" id="TEq-uv-6hs"/>
+                        <outlet property="weightLabel" destination="glA-Mg-mei" id="eGy-tw-npt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UmF-Mt-SEz" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -47,7 +47,8 @@ class Pokemon: AnyObject {
 			if _type == nil {
 				return ""
 			}
-			return _type}
+			return _type
+		}
 	}
 	
 	var defense: String {
@@ -55,7 +56,8 @@ class Pokemon: AnyObject {
 			if _defense == nil {
 				return ""
 			}
-			return _defense}
+			return _defense
+		}
 	}
 	
 	var weight: String {
@@ -63,15 +65,16 @@ class Pokemon: AnyObject {
 			if _weight == nil {
 				return ""
 			}
-			return _weight}
+			return _weight
+		}
 	}
 	
 	var height: String {
 		get	{
-			if _weight == nil {
+			if _height == nil {
 				return ""
 			}
-			return _weight
+			return _height
 		}
 	}
 	
