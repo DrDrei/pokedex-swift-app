@@ -37,6 +37,31 @@ class PokemonDetailVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+		let img = UIImage(named: "\(pokemon.pokedexID)")
+		self.mainImg.image = img
+		self.currentEvoImg.image = img
+		pokemon.downloadPokemonDetails { () -> () in
+			self.updateUI()
+		}
     }
+	
+	func updateUI() {
+		self.descLabel.text = pokemon.desc
+		self.typeLabel.text = pokemon.type
+		self.defenseLabel.text = pokemon.defense
+		self.heightLabel.text = pokemon.height
+		self.idLabel.text = "\(pokemon.pokedexID)"
+		self.weightLabel.text = pokemon.weight
+		self.attackLabel.text = pokemon.attack
+		if pokemon.nextEvoID == "" {
+			self.evoDescLabel.text = "\(pokemon.nextEvo) None"
+			self.nextEvoImg.hidden = true
+		} else {
+			self.evoDescLabel.text = "\(pokemon.nextEvo) at Level \(pokemon.nextEvoLvl)"
+			self.nextEvoImg.image = UIImage(named: "\(pokemon.nextEvoID)")
+		}
+		
+		
+	}
 
 }
